@@ -205,7 +205,7 @@ sequenceDiagram
     participant CompanyB as 🏢 Empresa B
     participant Station as ⚡ Posto B
 
-    Car->>CompanyA: POST /reserve {stationId: B1, userId: "car123"}
+    Car->>CompanyA: /reserve {stationId: B1, userId: "car123"}
     CompanyA->>CompanyA: Validar dados locais
     CompanyA->>Blockchain: createReservation(B1, startTime, endTime)
     Blockchain->>Blockchain: Validar disponibilidade
