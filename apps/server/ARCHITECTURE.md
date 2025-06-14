@@ -52,13 +52,13 @@ graph TB
     end
 
     subgraph "🏢 Empresa A"
-        ServerA[Servidor A<br/>:8095]
+        ServerA[Servidor A]
         StationA1[Posto A1]
         StationA2[Posto A2]
     end
 
     subgraph "🏢 Empresa B"
-        ServerB[Servidor B<br/>:8096]
+        ServerB[Servidor B]
         StationB1[Posto B1]
         StationB2[Posto B2]
     end
