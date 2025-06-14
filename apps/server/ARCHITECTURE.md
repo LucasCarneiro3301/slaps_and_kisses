@@ -64,8 +64,8 @@ graph TB
     end
 
     subgraph "⛓️ Blockchain Network"
-        BC[Smart Contract<br/>ChargingConsensus]
-        HardhatNode[Hardhat Node<br/>:8545]
+        BC[Smart Contract]
+        HardhatNode[Hardhat Node]
     end
 
     Car1 -.->|MQTT| ServerA
