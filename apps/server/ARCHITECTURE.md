@@ -72,10 +72,10 @@ graph TB
     Car2 -.->|MQTT| ServerA
     Car3 -.->|MQTT| ServerB
 
-    StationA1 -.->|MQTT| ServerA
-    StationA2 -.->|MQTT| ServerA
-    StationB1 -.->|MQTT| ServerB
-    StationB2 -.->|MQTT| ServerB
+    StationA1 -.-• ServerA
+    StationA2 -.-• ServerA
+    StationB1 -.-• ServerB
+    StationB2 -.-• ServerB
 
     ServerA <-->|Ethereum RPC| BC
     ServerB <-->|Ethereum RPC| BC
